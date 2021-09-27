@@ -38,7 +38,7 @@ import javafx.stage.Stage;
 
 		public void setD(Doctor d) {
 			this.d = d;
-			//kgiededjnferjnkerjnerkjn
+			//kgiededjnferjnkerjnerkjnsneiufneiu
 		}
 		@FXML
 	    public Label DoctorName;
