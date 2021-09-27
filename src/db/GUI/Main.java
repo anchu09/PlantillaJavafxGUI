@@ -40,6 +40,7 @@ public class Main extends Application{
 		} catch (Exception e) {
 			System.out.println("There was a general exception.");
 			e.printStackTrace();
+			//sdoidj
 		}
 
 	}
