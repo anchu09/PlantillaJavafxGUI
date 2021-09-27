@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AdminList>
+    <governs name="Spain">
+        <vaccines>1600</vaccines>
+    </governs>
+    <governs name="France">
+        <vaccines>214</vaccines>
+    </governs>
+    <governs name="Germany">
+        <vaccines>234</vaccines>
+    </governs>
+    <governs name="Italy">
+        <vaccines>235</vaccines>
+    </governs>
+    <governs name="Argentina">
+        <vaccines>2342</vaccines>
+    </governs>
+    <governs name="Canada">
+        <vaccines>424</vaccines>
+    </governs>
+    <governs name="USA">
+        <vaccines>354</vaccines>
+    </governs>
+</AdminList>

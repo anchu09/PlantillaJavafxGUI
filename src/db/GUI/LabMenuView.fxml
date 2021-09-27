@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="516.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="db.GUI.LabMenuController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="451.0" prefWidth="697.0" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="542.0" fitWidth="824.0" layoutX="-14.0" layoutY="-13.0" pickOnBounds="true">
+               <image>
+                  <Image url="@backgrounds/laboratorio.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="LabName" layoutX="66.0" layoutY="33.0" text="Lab name" textFill="#35657f">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Label>
+            <Button layoutX="684.0" layoutY="454.0" mnemonicParsing="false" onAction="#outfromlab" prefHeight="43.0" prefWidth="79.0" text="Sign out" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font></Button>
+            <Button fx:id="viewStatistics" layoutX="66.0" layoutY="138.0" mnemonicParsing="false" onAction="#viewStatisticsButton" prefHeight="43.0" prefWidth="250.0" text="View statistics" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Button>
+            <Label layoutX="66.0" layoutY="82.0" text="What would you like to do?" textFill="#35657f" textOverrun="CLIP">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="SearchModify_Patient" layoutX="66.0" layoutY="212.0" mnemonicParsing="false" onAction="#searchpatientbutton" prefHeight="43.0" prefWidth="250.0" text="Search  patient" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Button>
+            <Button fx:id="ModifyData" layoutX="66.0" layoutY="290.0" mnemonicParsing="false" onAction="#sendshipmentbutton" prefHeight="43.0" prefWidth="250.0" text="Send new shipment" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Button>
+            <ImageView fx:id="Doctor_Picture" fitHeight="159.0" fitWidth="150.0" layoutX="649.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="ModifyData1" layoutX="66.0" layoutY="366.0" mnemonicParsing="false" onAction="#addvaccinesbutton" prefHeight="43.0" prefWidth="250.0" text="Add new batch of vaccines" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Button>
+            <Button fx:id="ModifyData2" layoutX="66.0" layoutY="443.0" mnemonicParsing="false" onAction="#modifylabdatabutton" prefHeight="43.0" prefWidth="250.0" text="Modify laboratory data" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Button>
+            <Button layoutX="664.0" layoutY="212.0" mnemonicParsing="false" onAction="#changelabpic" text="Change picture" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="664.0" layoutY="172.0" mnemonicParsing="false" onAction="#seepiclab" prefHeight="31.0" prefWidth="120.0" text="See picture" textFill="#2f5569">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

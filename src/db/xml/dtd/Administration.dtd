@@ -1,0 +1,7 @@
+<!DOCTYPE Administration [
+   <!ELEMENT Administration (vaccines)>
+   <!ATTLIST Administration name CDATA #REQUIRED
+                  	        id CDATA #REQUIRED>
+   <!ELEMENT vaccines (#PCDATA)>
+   
+]>
