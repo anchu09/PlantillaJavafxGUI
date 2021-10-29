@@ -1,8 +1,0 @@
-<!DOCTYPE Patient [
-   <!ELEMENT Patient ( "birthday", "sex")>
-	<!ATTLIST Patient   height (#PCDATA) #REQUIRED
-                  	    weight (#PCDATA) #REQUIRED
-                  	    govId  (#PCDATA) #REQUIRED>
-   <!ELEMENT birthday (#PCDATA)>
-   <!ELEMENT sex (#PCDATA)>
-]>
